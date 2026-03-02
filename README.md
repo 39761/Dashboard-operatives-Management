@@ -1,3 +1,5 @@
+# Dashboard für das operative Management: Prozessoptimierung bei der Herstellung von keramischen Mahlkugeln für Kugelmühlen
+
 ## Aufgabenstellung
 Im Rahmen des Unterrichts im Fach Data-DL wird in MS Excel ein Dashboard erstellt, das dem operativen Management eines Unternehmens bei der Optimierung von Geschäftsprozessen oder betriebsrelevanten Größen als Entscheidungshilfe dient.
 Als Datengrundlage dienen frei verfügbare oder KI-generierte Daten. Ein Anwendungsfall soll konkret und eindeutig erkennbar sein. Es sollen keine Filter oder Bedienelemente enthalten sein.
@@ -8,7 +10,7 @@ Das Dashboard wurde mit Pivot Charts erstellt. Die Daten wurden in Excel mit KI-
 
 
 
-## Executive Summary: Prozessoptimierung der Herstellung von Mahlkugeln aus Steinzeug
+## Executive Summary
 ### Anwendungsbereich:
 Herstellung von keramischen Mahlmedien für Kugelmühlen mittels plastischer Formgebung.
 ### Problemstellung:
