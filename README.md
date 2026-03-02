@@ -2,6 +2,8 @@
 Im Rahmen des Unterrichts im Fach Data-DL wird ein Dashboard erstellt werden, dass dem operativen Management eines Unternehmens bei der Optimierung von Geschäftsprozessen oder betriebsrelevanten Größen als Entscheidungshilfe dient.
 Als Datengrundlage dienen frei verfügbare oder KI-generierte Daten verwendet werden. Ein Anwendungsfall soll konkret und eindeutig sein. Es sollen keine Filter oder Bedienelemente enthalten sein.
 
+![Screenshot Dashboard](Dashboard Steinzeugkugeln.jpg)
+
 ## Executive Summary: Prozessoptimierung der Herstellung von Mahlkugeln aus Steinzeug
 ### Anwendungsbereich:
 Herstellung von keramischen Mahlmedien für Kugelmühlen mittels plastischer Formgebung.
