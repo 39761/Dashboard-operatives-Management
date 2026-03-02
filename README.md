@@ -22,6 +22,7 @@ Kugelmühlen dienen der Zerkleinerung und Homogenisierung von Mahlgut. Dieses be
 Als Mahlkörper können Kugeln aus Steinzeug verwendet werden. Steinzeug ist ein natürlicher Rohstoff, bieten eine ausreichend hoher Härte und Festigkeit und sind vergleichsweise kostengünstig. 
 
 ![Zeichnung Kugelmühle](/assets/Zeichnung_Kugelmühle.jpg)
+
 Quelle: https://de.wikipedia.org/wiki/Kugelm%C3%BChle
 
 ### Herstellung der Kugeln
