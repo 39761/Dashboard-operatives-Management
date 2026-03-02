@@ -1,8 +1,12 @@
 ## Aufgabenstellung
-Im Rahmen des Unterrichts im Fach Data-DL wird ein Dashboard erstellt werden, dass dem operativen Management eines Unternehmens bei der Optimierung von Geschäftsprozessen oder betriebsrelevanten Größen als Entscheidungshilfe dient.
-Als Datengrundlage dienen frei verfügbare oder KI-generierte Daten verwendet werden. Ein Anwendungsfall soll konkret und eindeutig sein. Es sollen keine Filter oder Bedienelemente enthalten sein.
+Im Rahmen des Unterrichts im Fach Data-DL wird in MS Excel ein Dashboard erstellt, das dem operativen Management eines Unternehmens bei der Optimierung von Geschäftsprozessen oder betriebsrelevanten Größen als Entscheidungshilfe dient.
+Als Datengrundlage dienen frei verfügbare oder KI-generierte Daten. Ein Anwendungsfall soll konkret und eindeutig erkennbar sein. Es sollen keine Filter oder Bedienelemente enthalten sein.
 
 ![Screenshot Dashboard](Dashboard_Steinzeugkugeln_Screenshot.jpg)
+
+Das Dashboard wurde mit Pivot Charts erstellt. Die Daten wurden in Excel mit KI-Hilfe erzeugt.
+
+
 
 ## Executive Summary: Prozessoptimierung der Herstellung von Mahlkugeln aus Steinzeug
 ### Anwendungsbereich:
@@ -16,7 +20,9 @@ Die hochabrasive Steinzeugmasse führt zu einem progressiven Verschleiß der Pre
 
 •	Durch Ausschuss verursachte Zusatzkosten: Es wird erkennbar, wann die Kosten durch mangelhafte Qualität die Kosten eines Werkzeugwechsels übersteigen.
 
+
 ## Technischer Hintergrund
+
 ### Funktion einer Kugelmühle
 Kugelmühlen dienen der Zerkleinerung und Homogenisierung von Mahlgut. Dieses befindet sich in der rotierenden Trommel zusammen mit den Mahlkörpern, durch die es zertrümmert wird.
 Als Mahlkörper können Kugeln aus Steinzeug verwendet werden. Steinzeug ist ein natürlicher Rohstoff, bieten eine ausreichend hoher Härte und Festigkeit und sind vergleichsweise kostengünstig. 
