@@ -12,11 +12,11 @@ Das Dashboard wurde mit Pivot Charts erstellt. Die Daten wurden in Excel mit KI-
 ### Anwendungsbereich:
 Herstellung von keramischen Mahlmedien für Kugelmühlen mittels plastischer Formgebung.
 ### Problemstellung:
-Die hochabrasive Steinzeugmasse führt zu einem progressiven Verschleiß der Pressformen. Mit zunehmender Standzeit (d.h. mehr Presshüben) erhöht sich die Unrundheit der Kugeln. In der Kugelmühle resultiert dies in einer instabilen Rollbewegung, erhöhtem Energiebedarf und ungleichmäßigem Abrieb des Mahlguts. Deshalb müssen zu unrunde Kugeln aussortiert und der Tonaufbereitung wieder zugeführt werden und verursachen dadurch zusätzliche Kosten. Entsprechend muss bei zu großem Verschleiß die Form gewechselt werden. Der Formwechsel kostet Geld und Zeit, ebenso die Aufbereitung der verschlissenen Form bzw. deren Neukauf. 
+Die hochabrasive Steinzeugmasse führt zu einem progressiven Verschleiß der Pressformen. Mit zunehmender Standzeit (d.h. mehr Presshüben) erhöht sich die Unrundheit der Kugeln. In der Kugelmühle resultiert dies in einer instabilen Rollbewegung, erhöhtem Energiebedarf und ungleichmäßigem Abrieb des Mahlguts. Deshalb müssen zu unrunde Kugeln aussortiert und der Tonaufbereitung wieder zugeführt werden und verursachen dadurch zusätzliche Kosten. Entsprechend muss bei zu großem Verschleiß die Form gewechselt werden. Der Formwechsel kostet Zeit und Geld, ebenso die Aufbereitung der verschlissenen Form bzw. deren Neukauf. 
 ### Monitoring-Logik des Dashboards:
 •	Abweichung von der Kugelform: Überwachung der geometrischen Toleranz. Die Kurve zeigt den Verschleißverlauf am Werkzeug.
 
-•	Streuung der Kugelgröße: Statistische Auswertung der Durchmesserverteilung. Ein breiter werdender Glockenboden signalisiert den Verlust der Prozessstabilität (Form_A1).
+•	Streuung der Kugelgröße: Statistische Auswertung der Durchmesserverteilung. Idealerweise hat diese die Form einer Glocke. Ein breiter werdender "Glockenboden" signalisiert den Verlust der Prozessstabilität.
 
 •	Durch Ausschuss verursachte Zusatzkosten: Es wird erkennbar, wann die Kosten durch mangelhafte Qualität die Kosten eines Werkzeugwechsels übersteigen.
 
@@ -25,7 +25,7 @@ Die hochabrasive Steinzeugmasse führt zu einem progressiven Verschleiß der Pre
 
 ### Funktion einer Kugelmühle
 Kugelmühlen dienen der Zerkleinerung und Homogenisierung von Mahlgut. Dieses befindet sich in der rotierenden Trommel zusammen mit den Mahlkörpern, durch die es zertrümmert wird.
-Als Mahlkörper können Kugeln aus Steinzeug verwendet werden. Steinzeug ist ein natürlicher Rohstoff, bieten eine ausreichend hoher Härte und Festigkeit und sind vergleichsweise kostengünstig. 
+Als Mahlkörper können Kugeln aus Steinzeug verwendet werden. Steinzeug ist ein natürlicher Rohstoff, bietet eine ausreichend hohe Härte und Festigkeit und ist vergleichsweise kostengünstig. 
 
 ![Zeichnung Kugelmühle](/assets/Zeichnung_Kugelmühle.jpg)
 
