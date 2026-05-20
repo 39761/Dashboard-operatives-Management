@@ -1,37 +1,120 @@
-# Dashboard für das operative Management: Prozessoptimierung bei der Herstellung von keramischen Mahlkugeln für Kugelmühlen
+# Dashboard Operatives Produktionsmanagement
 
-## Aufgabenstellung
-Im Rahmen des Unterrichts im Fach Data-DL wird in MS Excel ein Dashboard erstellt, das dem operativen Management eines Unternehmens bei der Optimierung von Geschäftsprozessen oder betriebsrelevanten Größen als Entscheidungshilfe dient.
-Als Datengrundlage dienen frei verfügbare oder KI-generierte Daten. Ein Anwendungsfall soll konkret und eindeutig erkennbar sein. Es sollen keine Filter oder Bedienelemente enthalten sein.
+Excel-Dashboard zur Analyse von Werkzeugverschleiß, Prozessstabilität und Ausschusskosten in der keramischen Produktion.
+
+Das Projekt demonstriert exemplarisch, wie Produktions- und Qualitätsdaten zur Unterstützung operativer Entscheidungen visualisiert und analysiert werden können.
 
 ![Screenshot Dashboard](Dashboard_Steinzeugkugeln_Screenshot.jpg)
 
-Das Dashboard wurde mit Pivot Charts erstellt. Die Daten wurden in Excel mit KI-Hilfe erzeugt.
 
+# Projektziel
 
+In der Herstellung keramischer Mahlmedien unterliegen Pressformen einem kontinuierlichen Verschleiß. Mit zunehmender Standzeit verschlechtert sich die Formgenauigkeit der produzierten Kugeln.
 
-## Executive Summary
-### Anwendungsbereich:
-Herstellung von keramischen Mahlmedien für Kugelmühlen mittels plastischer Formgebung.
-### Problemstellung:
-Die hochabrasive Steinzeugmasse führt zu einem progressiven Verschleiß der Pressformen. Mit zunehmender Standzeit (d.h. mehr Presshüben) erhöht sich die Unrundheit der Kugeln. In der Kugelmühle resultiert dies in einer instabilen Rollbewegung, erhöhtem Energiebedarf und ungleichmäßigem Abrieb des Mahlguts. Deshalb müssen zu unrunde Kugeln aussortiert und der Tonaufbereitung wieder zugeführt werden und verursachen dadurch zusätzliche Kosten. Entsprechend muss bei zu großem Verschleiß die Form gewechselt werden. Der Formwechsel kostet Zeit und Geld, ebenso die Aufbereitung der verschlissenen Form bzw. deren Neukauf. 
-### Monitoring-Logik des Dashboards:
-•	Abweichung von der Kugelform: Überwachung der geometrischen Toleranz. Die Kurve zeigt den Verschleißverlauf am Werkzeug.
+Dies kann zu:
+- Qualitätsverlust
+- instabilen Prozesseigenschaften
+- erhöhtem Energiebedarf
+- zusätzlichem Ausschuss
+- steigenden Produktionskosten
 
-•	Streuung der Kugelgröße: Statistische Auswertung der Durchmesserverteilung. Idealerweise hat diese die Form einer Glocke. Ein breiter werdender "Glockenboden" signalisiert den Verlust der Prozessstabilität.
+führen.
 
-•	Durch Ausschuss verursachte Zusatzkosten: Es wird erkennbar, wann die Kosten durch mangelhafte Qualität die Kosten eines Werkzeugwechsels übersteigen.
+Ziel des Dashboards ist die datenbasierte Unterstützung der Entscheidung, wann ein Werkzeug wirtschaftlich sinnvoll gewechselt werden sollte.
 
+---
 
-## Technischer Hintergrund
+# Monitoring-Logik
 
-### Funktion einer Kugelmühle
-Kugelmühlen dienen der Zerkleinerung und Homogenisierung von Mahlgut. Dieses befindet sich in der rotierenden Trommel zusammen mit den Mahlkörpern, durch die es zertrümmert wird.
-Als Mahlkörper können Kugeln aus Steinzeug verwendet werden. Steinzeug ist ein natürlicher Rohstoff, bietet eine ausreichend hohe Härte und Festigkeit und ist vergleichsweise kostengünstig. 
+## 1. Geometrische Toleranz
 
-![Zeichnung Kugelmühle](/assets/Zeichnung_Kugelmühle.jpg)
+Überwachung der Abweichung von der idealen Kugelform.
 
-Quelle: https://de.wikipedia.org/wiki/Kugelm%C3%BChle
+Die Entwicklung der Messwerte visualisiert den fortschreitenden Werkzeugverschleiß.
 
-### Herstellung der Kugeln
-Der aus einer Tongrube gewonnene Rohstoff wird zunächst zu einer plastischen Masse aufbereitet. Diese wird unter Druck zu einem Strang gepresst, der in Abständen abgeschnitten wird. Die Abschnitte werden sodann in einer Metallform zu Kugeln gepresst. Danach müssen sie noch getrocknet und gebrannt werden.
+---
+
+## 2. Prozessstabilität
+
+Analyse der Durchmesserverteilung der produzierten Kugeln.
+
+Eine zunehmende Streuung weist auf sinkende Prozessstabilität hin.
+
+---
+
+## 3. Wirtschaftliche Bewertung
+
+Vergleich zwischen:
+- Ausschusskosten
+- Kosten eines Werkzeugwechsels
+
+Dadurch wird sichtbar, ab welchem Zeitpunkt ein Werkzeugwechsel wirtschaftlich sinnvoll ist.
+
+---
+
+# Technischer Hintergrund
+
+## Kugelmühlen
+
+Kugelmühlen dienen der Zerkleinerung und Homogenisierung von Mahlgut. Die rotierende Trommel enthält Mahlkörper, die das Material mechanisch zerkleinern.
+
+Als Mahlkörper können keramische Kugeln aus Steinzeug verwendet werden.
+
+![Schema einer Kugelmühle](./assets/Zeichnung_Kugelmühle.jpg)
+
+Quelle: Wikipedia – Kugelmühle
+
+---
+
+## Herstellungsprozess
+
+Die keramische Masse wird plastisch aufbereitet und anschließend mit Pressformen zu Kugeln verarbeitet.
+
+Durch den Verschleiß der Formen verschlechtert sich mit der Zeit die Rundheit der Kugeln, was sich negativ auf Prozessqualität und Energieeffizienz auswirkt.
+
+---
+
+# Datenbasis
+
+Die im Dashboard verwendeten Produktions- und Qualitätsdaten wurden zu Demonstrations- und Analysezwecken exemplarisch mit Excel generiert.
+
+Die Daten simulieren typische Entwicklungen wie:
+- zunehmenden Werkzeugverschleiß
+- steigende Streuung
+- Ausschussentwicklung
+- wirtschaftliche Auswirkungen im Produktionsprozess
+
+---
+
+# Technologien
+
+- Microsoft Excel
+- Pivot-Tabellen
+- Diagramme und Kennzahlenvisualisierung
+- Simulierte Produktions- und Qualitätsdaten
+
+---
+
+# Projektkontext
+
+Dieses Projekt wurde als Portfolio- und Lernprojekt im Rahmen der Umschulung zum Fachinformatiker für Daten- und Prozessanalyse erstellt.
+
+Der fachliche Hintergrund basiert auf Erfahrungen aus Materialtechnik und Produktionsumfeld.
+
+---
+
+# Inhalte des Repositories
+
+- Excel-Dashboard als .xlsx und als Screenshot
+- Schematische Darstellung einer Kugelmühle
+- Dokumentation des fachlichen Hintergrunds
+
+---
+
+# Ziel des Projekts
+
+Das Projekt dient der Demonstration:
+- datenbasierter Prozessanalyse
+- operativer Kennzahlenvisualisierung
+- technischer Problemmodellierung
+- strukturierter Aufbereitung komplexer Produktionszusammenhänge
